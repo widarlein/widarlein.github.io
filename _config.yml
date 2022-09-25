@@ -44,8 +44,8 @@ social:
   #email:              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/widar      # change to your twitter homepage
     - https://github.com/widarlein       # change to your github homepage
+    - https://twitter.com/widar      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -56,7 +56,7 @@ google_site_verification: avofLcSppF3US_WP8P8Pke99ENpy-9YCUDfVxyx0Cyw           
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-PDGMHDQYPD          # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -83,7 +83,7 @@ theme_mode: dark   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -110,7 +110,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled:      # boolean, keep empty means false
+    enabled: false      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
